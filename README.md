@@ -1,0 +1,2 @@
+# OVA_ARDUINO_SENA_CSF
+¡Bienvenido a mi OVA para Arduino! En esta OVA podrás aprender sobre los fundamentos de Arduino, incluyendo la descarga e instalación del IDE de Arduino, la conexión de Arduino al ordenador, la configuración de los pines y la programación de sensores y actuadores. La OVA está diseñada para ser interactiva y fácil de seguir, con ejemplos prácticos y actividades para ayudarte a aprender de manera efectiva. ¡Espero que disfrutes de mi OVA y que te sea de gran ayuda en tu aprendizaje de Arduino!

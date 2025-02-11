@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Librerias | prueba </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Edgar Joaquin Delgado Arias" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.7 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-7"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">prueba</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Inicio</a></li>
+   <li><a href="introduccion.html" class="no-ch">Introduccion</a></li>
+   <li><a href="descarga_e_instalacin.html" class="daddy">Descarga e instalación</a>
+   <ul class="other-section">
+      <li><a href="mi_primer_programa.html" class="no-ch">Mi primer programa</a></li>
+   </ul>
+   </li>
+   <li><a href="sensores_actuadores_y_perifericos.html" class="no-ch">Sensores, Actuadores y Perifericos</a></li>
+   <li id="active"><a href="librerias.html" class="active no-ch">Librerias</a></li>
+   <li><a href="talleres.html" class="daddy">Talleres</a>
+   <ul class="other-section">
+      <li><a href="taller_1.html" class="no-ch">Taller 1</a></li>
+      <li><a href="taller_2.html" class="no-ch">Taller 2</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="sensores_actuadores_y_perifericos.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="talleres.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Librerias</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id8">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Librerias en Arduino</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta8_118_2" class="block iDevice_content">
+<div class="exe-text"><p style="text-align: justify;"><strong>Manejar Librerías Arduino</strong><br />Las librerías son trozos de código hechas por terceros que usamos en nuestro sketch. Esto nos facilita mucho la programación y permite la abstracción haciendo que nuestro programa sea más sencillo de hacer y de entender. En este apartado también veremos cómo escribir o modificar librerías.  Disponemos de infinidad de librerías a nuestra disposición para facilitarnos el trabajo, todas ellas son open source y disponemos de su código.  Las librerías normalmente incluyen los siguientes archivos comprimidos en un archivo ZIP o dentro de un directorio. Estas siempre contienen:</p>
+<ol>
+<li style="text-align: justify;">Un archivo .cpp (código de C++)</li>
+<li style="text-align: justify;">Un archivo .h o encabezado de C, que contiene las propiedades y métodos o funciones de la librería.</li>
+<li style="text-align: justify;">Un archivo Keywords.txt, que contiene las palabras clave que se resaltan en el IDE (opcional).</li>
+<li style="text-align: justify;">Muy posiblemente la librería incluye un archivo readme con información adicional de lo que hace y con instrucciones de como usarla.</li>
+<li style="text-align: justify;">Directorio denominado examples con varios sketchs de ejemplo que nos ayudará a entender cómo usar la librería (opcional).</li>
+</ol>
+<p style="text-align: justify;">La distintas formas de instalar librerías se puede ver en <a href="https://aprendiendoarduino.wordpress.com/2016/06/27/librerias-3/">https://aprendiendoarduino.wordpress.com/2016/06/27/librerias-3/</a>, para usar una librería que acabamos de instalar, lo que hay que hacer es leer la documentación de esa librería si es que está disponible y luego leer y probar los ejemplos que dispone la librerías.  Pero ahora que ya sabemos manejar clases y objetos, si queremos entrar a fondo en una librería para saber usarla, podemos abrir el fichero del encabezado (.h) y ver las propiedades y métodos, ver si hereda de otra librería, etc… y luego incluso ver cómo funciona la propia librería leyendo el código en el fichero .cpp e incluso si nos atrevemos añadir nuevos métodos o modificar un método que nos interese.</p>
+<p style="text-align: justify;">Si tiene problemas con las librerías puede consultar el siguiente enlace: <a href="https://learn.adafruit.com/adafruit-all-about-arduino-libraries-install-use/common-library-problems">https://learn.adafruit.com/adafruit-all-about-arduino-libraries-install-use/common-library-problems</a></p>
+<p style="text-align: justify;">Con el nuevo gestor de librerías es mucho más fácil gestionar las librerías instaladas así como su versión y actualización, algo que antes había que hacer manualmente,  el listado de librerías se actualiza de internet y se guarda en: C:\Users\usuario\AppData\Local\Arduino15\library_index.json, Las placas se actualiza de internet (del gestor de tarjetas) y se guarda en: C:\Users\usuario\AppData\Local\Arduino15\package_index.json, El archivo library_index.json se actualiza al abrir el IDE y en caso de tener problemas, se puede borrar y se genera de nuevo al abrir el IDE.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="sensores_actuadores_y_perifericos.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="talleres.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_intef_js.js"></script></body></html>

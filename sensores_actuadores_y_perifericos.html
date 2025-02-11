@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Sensores, Actuadores y Perifericos | prueba </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Edgar Joaquin Delgado Arias" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.7 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-6"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">prueba</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Inicio</a></li>
+   <li><a href="introduccion.html" class="no-ch">Introduccion</a></li>
+   <li><a href="descarga_e_instalacin.html" class="daddy">Descarga e instalación</a>
+   <ul class="other-section">
+      <li><a href="mi_primer_programa.html" class="no-ch">Mi primer programa</a></li>
+   </ul>
+   </li>
+   <li id="active"><a href="sensores_actuadores_y_perifericos.html" class="active no-ch">Sensores, Actuadores y Perifericos</a></li>
+   <li><a href="librerias.html" class="no-ch">Librerias</a></li>
+   <li><a href="talleres.html" class="daddy">Talleres</a>
+   <ul class="other-section">
+      <li><a href="taller_1.html" class="no-ch">Taller 1</a></li>
+      <li><a href="taller_2.html" class="no-ch">Taller 2</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="mi_primer_programa.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="librerias.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Sensores, Actuadores y Perifericos</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id7">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Sensores y Actuadores - Arduino</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta7_117_2" class="block iDevice_content">
+<div class="exe-text"><p style="text-align: justify;"><strong>Sensores</strong><br />Un sensor es un dispositivo capaz de detectar magnitudes físicas o químicas, llamadas variables de instrumentación, y transformarlas en variables eléctricas. Las variables de instrumentación pueden ser por ejemplo: temperatura, intensidad lumínica, distancia, aceleración, inclinación, desplazamiento, presión, fuerza, torsión, humedad, movimiento, pH, etc. Una magnitud eléctrica puede ser una resistencia eléctrica (como en una RTD), una capacidad eléctrica (como en un sensor de humedad o un sensor capacitivo), una tensión eléctrica (como en un termopar), una corriente eléctrica (como en un fototransistor), etc.</p>
+<ul>
+<li>Los sensores se pueden clasificar en función de los datos de salida en: Digitales, Analógicos, Comunicación por Bus<br /><br /></li>
+</ul>
+<p><img src="sensores_arduino.jpg" alt="imagen" title="imagen" width="400" height="400" /></p>
+<p style="text-align: justify;"><strong>Actuadores y Periféricos</strong><br />Un actuador es un dispositivo capaz de transformar energía hidráulica, neumática o eléctrica en la activación de un proceso con la finalidad de generar un efecto sobre elemento externo. Este recibe la orden de un regulador, controlador o en nuestro caso un Arduino y en función a ella genera la orden para activar un elemento final de control como, por ejemplo, una válvula.</p>
+<p>Existen varios tipos de actuadores como son: Electrónicos, Hidráulicos, Neumáticos, Eléctricos, Motores, Bombas, entre otros.</p>
+<p><img src="actuadores_arduino.jpg" alt="imagen" title="imagen" width="400" height="300" /></p>
+<p><strong>Periférico</strong></p>
+<p style="text-align: justify;">Es la denominación genérica para designar al aparato o dispositivo auxiliar e independiente conectado a la unidad central de procesamiento o en este caso a Arduino. Se consideran periféricos a las unidades o dispositivos de hardware a través de los cuales Arduino se comunica con el exterior, y también a los sistemas que almacenan o archivan la información, sirviendo de memoria auxiliar de la memoria principal.</p>
+<p style="text-align: justify;">Ejemplos de periféricos: Pantallas LCD, Teclados, Memorias externas, Cámaras, Micrófonos, Impresoras, Pantalla táctil, Displays numéricos, Zumbadores, Indicadores luminosos, etc.</p>
+<p style="text-align: justify;"><img src="perifericos_arduino.jpg" alt="imagen" title="imagen" width="401" height="378" /></p>
+<p style="text-align: justify;">Para cada actuador o periférico, necesitamos un “driver” o manejador para poder mandar órdenes desde Arduino, recuerden que los pines de Arduino solo pueden manejar un máximo de 40mA y recomendable usar 20mA de forma continua, tambien recuerden que Arduino solo puede manejar un total de 200 mA de salida. Es decir que la corriente máxima que admite Vcc y GND son 200 mA, Recuerden que los pines Arduino solo pueden tener los valores de 5V (3.3V en algunos modelos) y 0V. No es posible cualquier otro valor de tensión.  A la hora de seleccionar un actuador o periférico para usar con arduino habrá que ver sus características y cómo hacer el interface con arduino. En el playground de Arduino existe una gran base de datos de conocimiento para conectar Arduino con casi cualquier HW: <a href="http://playground.arduino.cc/Main/InterfacingWithHardware">http://playground.arduino.cc/Main/InterfacingWithHardware</a>, Tutoriales para conectar Arduino con diversos dispositivos: <a href="http://playground.arduino.cc/Learning/Tutorials">http://playground.arduino.cc/Learning/Tutorials</a></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="mi_primer_programa.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="librerias.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_intef_js.js"></script></body></html>
